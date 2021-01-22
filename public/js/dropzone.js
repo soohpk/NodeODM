@@ -218,7 +218,7 @@ var Dropzone = function (_Emitter) {
         /**
          * If `retryChunks` is true, how many times should it be retried.
          */
-        retryChunksLimit: 3,
+        retryChunksLimit: 20,
 
         /**
          * If not `null` defines how many files this Dropzone handles. If it exceeds,
